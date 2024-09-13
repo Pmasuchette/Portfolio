@@ -6,7 +6,7 @@ a{
 }
 
 body {
-    background-color:rgb(255, 234, 79);
+    background-color:rgb(190, 191, 255);
     font-family: Perpetua, serif;
     background-repeat: no-repeat; 
     background-size: auto;
@@ -14,11 +14,17 @@ body {
 h1{
     font-family: IM Fell DW Pica, Candara, sans-serif;
     text-align: center;
+    margin-left: 100px;
 }
 
 nav ul {
     display: flex;
-    justify-content:center;
     list-style-type:none;
-    gap: 20px;
+    gap: 100px;
+}
+div{
+    justify-content: flex-start;
+    display: flex;
+    gap: 100px;
+    align-items: center;
 }
